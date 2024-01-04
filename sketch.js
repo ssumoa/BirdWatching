@@ -107,15 +107,15 @@ function state0() {
   textAlign(LEFT);
   textSize(32);
   text("Click anywhere to watch birds", width/2 - 240 + 30, 720+ 60);
-  text("Press ENTER to FullScreen", width/2 - 240 + 30, 720+ 70 + 40);
-  text("Press ESC to return to this page", width/2 - 240 + 30, 720+70 + 40*2);
+  text("Press ENTER to FullScreen", width/2 - 240 + 30, 720+ 60 + 60);
+  text("Press ESC to return to this page", width/2 - 240 + 30, 720+60 + 60*2);
   textSize(26);
   textAlign(CENTER);
-  text("Birds are pretty sensitive to noise", width/2, 420 );
-  text("You should be quite! Or They'll just go away", width/2,420+46) ;
+  text("Birds are pretty sensitive to noise", width/2, 400 );
+  text("You should be quite! Or They'll just go away", width/2,400+46) ;
   textSize(32);
 
-  text("Enjoy your bird watching!", width/2,420+46*3);
+  text("Enjoy your bird watching!", width/2,400+46*2.5);
   
 }
 
