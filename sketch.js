@@ -112,10 +112,10 @@ function state0() {
   textSize(26);
   textAlign(CENTER);
   text("Birds are pretty sensitive to noise", width/2, 420 );
-  text("You should be quite! Or They'll just go away", width/2,420+64) ;
+  text("You should be quite! Or They'll just go away", width/2,420+46) ;
   textSize(32);
 
-  text("Enjoy your bird watching!", width/2,900);
+  text("Enjoy your bird watching!", width/2,420+46*3);
   
 }
 
